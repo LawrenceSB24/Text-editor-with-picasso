@@ -12,9 +12,14 @@
     "client": "cd client && npm start",
     "heroku-prebuild": "npm install --dev"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LawrenceSB24/Text-editor-with-picasso"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://github.com/LawrenceSB24/Text-editor-with-picasso#readme",
   "dependencies": {
     "express": "^4.18.1",
     "if-env": "^1.0.4"
