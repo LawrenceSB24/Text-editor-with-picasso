@@ -1,5 +1,26 @@
 # Text-editor-with-picasso
 
+## Table of Contents
+- [Description](!Description)
+
+- [User Story](!User-Story)
+
+- [Acceptance Criteria](!Acceptance-Criteria)
+
+- [Files Updated](!Files-Updated)
+
+- [Usage](!Usage)
+
+- [Installation](!Installation)
+
+- [Delployed Link](!Deployed-Link)
+
+- [Demo Image](!Demo-Image)
+
+- [Questions](!Questions)
+
+## Description
+
 A progressive web application that meets the PWA criteria. It contains a number of data persistence techniques to serve as redundancies for options not supported in the browser. It will also function offline.
 
 ## User Story
@@ -36,9 +57,10 @@ WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
 
-**Editor's NOTE** Let it be known that I abosultely HATE Heroku but I understand its importance
-
 ## Files updated
+
+Below are brief descriptions for the files modified for complete app functionality
+
 * Main package.json
 <!-- Added rules for scripts to run by -->
 <!-- Original scripts object
@@ -69,3 +91,28 @@ THEN I should have proper build scripts for a webpack application
 
 * Install JS file
 <!-- Added event handlers for editor functions -->
+
+## Usage
+
+To run this application, type `npm run start` into the command line of your terminal
+
+## Installation
+
+To install this application:
+
+- Fork or clone this repo into your own repo
+
+- run `npm i` plus the name of the package you want to use to install all the dependencies you need.
+
+## Deployed Link
+
+This is a link to the deployed Heroku app for the text editor: https://fierce-harbor-15165.herokuapp.com/
+
+## Demo Image
+[This is a snapshot of the live application on Heroku](../Text-editor-with-picasso/Images/screencapture-fierce-harbor-15165-herokuapp-2022-05-07-21_08_39.png)
+
+## Questions
+
+If you have any further questions, then you can contact me via:
+- Github: https://github.com/LawrenceSB24/Text-editor-with-picasso
+- Email: [laws2020@gmail.com](laws2020@gmail.com)
