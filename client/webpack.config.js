@@ -21,8 +21,8 @@ module.exports = () => {
       // Plugins for text editor
       new HtmlWebpackPlugin({
         template: './index.html',
-        // title: 'Text Editor'
-        title: 'Contact Cards'
+        title: 'JATE'
+        // title: 'Contact Cards'
       }),
 
       // Plugin for injecting service worker
