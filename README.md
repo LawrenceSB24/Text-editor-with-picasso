@@ -109,7 +109,7 @@ To install this application:
 This is a link to the deployed Heroku app for the text editor: https://fierce-harbor-15165.herokuapp.com/
 
 ## Demo Image
-[This is a snapshot of the live application on Heroku](../Text-editor-with-picasso/Images/screencapture-fierce-harbor-15165-herokuapp-2022-05-07-21_08_39.png)
+![This is a snapshot of the live application on Heroku](../Text-editor-with-picasso/Images/screencapture-fierce-harbor-15165-herokuapp-2022-05-07-21_08_39.png)
 
 ## Questions
 
