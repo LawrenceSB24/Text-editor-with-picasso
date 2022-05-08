@@ -1,3 +1,4 @@
+import { response } from 'express';
 import { openDB } from 'idb';
 
 const initdb = async () =>
@@ -17,23 +18,26 @@ const initdb = async () =>
 export const putDb = async (content) => {
   console.error('putDb not implemented');
 
-  const db = await openDB('jate', 1);
-  const tx = db.transaction('jate', 'readwrite');
-  const request = tx.objectStore('jate').put({id: 1, content});
-  // console.log('🚀 - data saved to the database'), result;
-  console.log('🚀 - data saved to the database');
+  const teDb = await openDB('jate', 1);
+  const tx = teDb.transaction('jate', 'readwrite');
+  const store = tx.objectStore('jate')
+  const request = store.put({jate: content});
+  const result = await request;
+  console.log('🚀 - data saved to the database'), result;
+  // console.log('🚀 - data saved to the database');
 };
 
 // TODO: Add logic for a method that gets all the content from the database
 // export const getDb = async () => console.error('getDb not implemented');
 export const getDb = async () => {
   console.error('getDb not implemented');
-  const db = await openDB('jate', 1);
-  const tx = db.transaction('jate', 'readonly');
-  const request = tx.objectStore('jate').getAll(1);
+  const teDb = await openDB('jate', 1);
+  const tx = teDb.transaction('jate', 'readonly');
+  const store = tx.objectStore('jate')
+  const request = store.getAll();
   const result = await request;
-  return result[0].content;
-  // console.log('result.value', result);
+  // return result[0].content;
+  console.log(result);
   // return result;
 };
 
