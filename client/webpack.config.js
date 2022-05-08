@@ -38,8 +38,8 @@ module.exports = () => {
         name: "Just Another Text Editor",
         short_name: "JATE",
         description: "Text Editor for creating notes and code snippets",
-        background_color: "#000000",
-        theme_color: "#ff0000",
+        background_color: "#225ca3",
+        theme_color: "##225ca3",
         start_url: "/",
         publicPath: "/",
         icons: [
@@ -56,14 +56,14 @@ module.exports = () => {
       rules: [
         // CSS loaders
         {
-          test: /\.css$/i,
+          test: /\.css$/,
           use: ['style-loader', 'css-loader']
         },
         // Test for......images? Im not sure
-        {
-          test: /\.(png|svg|jpg|jpeg|gif)$/i,
-          type: 'asset/resource'
-        },
+        // {
+        //   test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        //   type: 'asset/resource'
+        // },
         // JS loaders
         {
           test: /\.m?js$/,
